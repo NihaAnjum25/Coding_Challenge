@@ -1,0 +1,37 @@
+# Day-14 Review: NLP Weekly Evaluation  
+**ABTalksOnAI Global Coding Challenge – Season 2**
+
+## 📌 Overview
+Day-14 of the challenge focused on reviewing and evaluating the Natural Language Processing (NLP) assignments completed during the week. The purpose of this review was to reflect on the implemented workflows, analyze preprocessing and feature extraction techniques, and identify areas for improvement in future NLP projects.
+
+---
+
+## 🧠 NLP Tasks Reviewed
+During the week, several NLP tasks were completed involving the following steps:
+
+### 1. Text Preprocessing
+Raw text data was cleaned and prepared using standard NLP preprocessing techniques:
+
+- Tokenization (splitting text into words/tokens)
+- Lowercasing for text normalization
+- Stopword removal to eliminate unnecessary words
+- Punctuation removal
+- Stemming / Lemmatization to reduce words to their root forms
+
+These steps helped in reducing noise and improving the quality of the text data before feature extraction.
+
+---
+
+### 2. Feature Extraction
+After preprocessing, textual data was converted into numerical representations using:
+
+- **Bag of Words (BoW)** – representing text as word frequency counts  
+- **TF-IDF (Term Frequency–Inverse Document Frequency)** – weighting words based on importance  
+- **Vectorization techniques** – converting text into vectors usable by machine learning models  
+
+These techniques allow machine learning algorithms to process and analyze textual data effectively.
+
+---
+
+## ⚙️ NLP Workflow Structure
+The NLP pipeline used during the assignments followed this structure:
